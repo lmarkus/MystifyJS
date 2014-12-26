@@ -5,7 +5,7 @@ Mystify Screen Saver emulation!
 
  I've been wanting to play with Canvas and animations for a while. I figured doing good ol' Mystify in JS would prove entertaining.
 
- What I didn't expect was that writing the basics, I'd spend quite a few hours tweaking and re-tweaking parameters to see what would be rendered on screen.
+ What I didn't expect was that after writing the basics, I'd spend quite a few hours tweaking and re-tweaking parameters to see what would be rendered on screen.
 
 
 ##The basics
@@ -27,10 +27,20 @@ Mystify Screen Saver emulation!
 
  A shape will run for 20 seconds before pausing, and resetting to a new shape 5 seconds later.
 
- Feel free to dig in, and tweak things :)
+##Performance
 
+ Things seem to be running at a silky 59fps. (Tested on Chrome and FF). YMMV
+
+ Feel free to dig in, and tweak things :)
  -Lenny
 
- ![Screensaver]()
+## Screenshots
+
+ <hr>
+ ![ScreenShot 1](https://github.com/lmarkus/MystifyJS/blob/gh-pages/images/jsScreen.png)
+ <hr>
+ ![ScreenShot 2](https://github.com/lmarkus/MystifyJS/blob/gh-pages/images/jsScreen2.png)
+
+
 
 
