@@ -7,6 +7,8 @@ Mystify Screen Saver emulation!
 
  What I didn't expect was that after writing the basics, I'd spend quite a few hours tweaking and re-tweaking parameters to see what would be rendered on screen.
 
+**[Live Demo](http://lmarkus.github.io/MystifyJS/)**
+
 
 ##The basics
 
