@@ -11,6 +11,8 @@ define(function (require) {
         canvas = null,
         ctx = null,
         theShape = null,
+        isMobile = require('mobileCheck'),
+
     //Some config
         baseShapeConfig = {
             numberOfNodes: 2,
@@ -34,10 +36,10 @@ define(function (require) {
      */
     function
     setup() {
-
+        var resolution = isMobile?1:4;
         canvas = document.getElementById('field');
-        canvas.width = 4 * window.innerWidth;
-        canvas.height = 4 * window.innerHeight;
+        canvas.width = resolution * window.innerWidth;
+        canvas.height = resolution * window.innerHeight;
         baseShapeConfig.nodeConfig.bounds = {
             x: {min: 0, max: canvas.width},
             y: {min: 0, max: canvas.height}
